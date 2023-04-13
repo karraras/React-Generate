@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.f-13 {
+  font-size: 13px;
+}
+.f-16 {
+  font-size: 16px;
+}
+.my-nav {
+  padding: 20px 10px;
+  color: white;
+  padding-right: 20px;
+  background: linear-gradient(45deg, #41084b, #a351b1);
+}
+.my-nav h4,
+.my-nav h6 {
+  margin: 0px;
+}
+/* ============================== from */
+
+.my-nav + .form {
+  padding: 50px;
+}
+.my-nav + .form div {
+  gap: 20px;
+}
+
+.my-nav + .form input {
+  width: 100%;
+}
+.my-nav + .form button {
+  background: linear-gradient(45deg, #41084b, #a351b1);
+  color: white;
+  width: 100%;
+  margin-top: 30px;
+}
+.my-nav + .form button:hover {
+  color: white !important;
+}
+/* =================================mime */
+.mime {
+  padding: 0px 50px 50px;
+  position: relative;
+}
+.mime > p {
+  position: absolute;
+  left: 10%;
+  color: white;
+  font-size: 40px;
+  -webkit-text-stroke: black 1px;
+}
+.mime .TText {
+  top: 20%;
+}
+.mime .BText {
+  top: 50%;
+}
+/* ====================== */
+main > .box {
+  width: 100px;
+  height: 100px;
+  margin: 2px;
+  border: solid 1px black;
+}
